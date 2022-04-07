@@ -1,0 +1,101 @@
+/* Import font from google */
+
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Patrick+Hand&display=swap');
+
+/* Global style */
+
+body {
+    font-family: 'Patrick Hand', cursive;
+    color: #114b5F;
+    background-color: #EBEBE3;
+}
+
+footer {
+    background-color: #5A83AF;
+    color: #EBEBE3;
+}
+
+a {
+    color: #EBEBE3;
+}
+
+p {
+    font-family: 'Concert One', cursive;
+    color: #456990;
+}
+
+li {
+    list-style: none;
+}
+
+li a:hover {
+    text-decoration: underline;
+    color: #EBEBE3;
+}
+
+.logo:hover {
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+.button:hover {
+    box-shadow: 3px 3px 5px #114b5F;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.description img {
+    width: 350px;
+    height: 260px;
+}
+
+.button {
+    border: 2px #114b5F solid;
+    padding: 5px 10px;
+    background-color: white;
+    color: #114b5F;
+}
+
+
+/* Color classes*/
+
+.header-color {
+    background-color: #5A83AF !important;
+}
+
+.dark-color {
+    color: #456990;
+}
+
+.light-pink-color {
+    color: #FCB8BE !important;
+    font-weight: bold;
+}
+
+
+/* Contect page */
+
+.socialMedia a {
+    color: #FCB8BE;
+}
+
+
+/* Gallery page */
+
+.gallery img:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+
+/* Project 1 */
+
+.borderline {
+    border-radius: 5px;
+    border: #456990 1px solid;
+}
+
+#ShoppingBag
+{
+    background-color: white;
+}

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/b8c9d120f9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="icon" href="../logo/ZIHAO.png" type="image/x-icon">
+    <title>Home</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header class=" mb-4">
+        <nav class="navbar navbar-expand-lg bg-light header-color">
+            <div class="container-fluid">
+
+                <!-- Left Logo -->
+                <a class="navbar-brand logo" href="#"><img src="../logo.png" alt="Company Logo" width="64" height="64"> ZIHAO WANG</a>
+                <!-- Right Navbar Elements -->
+                <div class="d-flex ">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="./Product.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="./Login.html">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="./Register.html">New User</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link " href="./Cart.html">Cart</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="./Contact.html">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                           <a href=""><i class="fa fa-shopping-bag nav-link" aria-hidden="true"></i> <span id="cart" ></span></a>
+                        </li>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Body Content -->
+    <div class="container-fluid mb-5">
+        <h1 class="text-center">
+            Products
+        </h1>
+        <div class="row">
+ 
+        <div class="col-3 " >
+            <h2 class="text-center"> Shopping Cart</h2>
+            <div id = "ShoppingBag">
+
+            </div>
+        </div>
+        <div class=" offset-1 col-8">
+        <div class="row mb-5 " id="pContainer">
+            <div class="col">
+                <div class="card" id="product1" style="width: 18rem;">
+                    <img src="https://cdn.shopify.com/s/files/1/0070/7582/3668/products/natural_chinese_shanshan_seal_stone_for_oriental_brush_painting_artwork_3_400x.jpg?v=1598872349" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">KUNLUN TRANSLUCENT STONE SEAL</h5>
+                    <p class="card-text">$19.99</p>
+                    <a href="#" class="btn btn-primary add">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card" id="product2" style="width: 18rem;">
+                <img src="https://cdn.shopify.com/s/files/1/0070/7582/3668/products/mountain-red-daily-use-stone-cuboid-1_5000x.jpg?v=1598870270" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">MOUNTAIN RED STONE SEAL</h5>
+                    <p class="card-text">$32.99</p>
+                    <a href="#" class="btn btn-primary add">Add to Cart</a>
+                </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                <img src="https://cdn.shopify.com/s/files/1/0070/7582/3668/products/chinese_seal_carving_starter_practise_stone_for_kanji_calligraphy_d9f188dc-e44a-4c91-96fa-74ed35ba85f2_5000x.png?v=1603178487" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">POPSICLE STONE SEAL</h5>
+                    <p class="card-text">$20.99</p>
+                    <a href="#" class="btn btn-primary disabled">Sold Out</a>
+                </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+
+    </div>
+ 
+
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container pb-5 pt-5 ">
+
+            <div class="row mb-5 ">
+                <div class="col-3 border-left ">
+                    <li class=" ">
+                        <a class=" " href="./Product.html ">Home</a>
+                    </li>
+                    <li class=" ">
+                        <a class=" " href="./Login.html ">Login</a>
+                    </li>
+                    <li class=" ">
+                        <a class=" " href="./Register.html ">New User</a>
+                    </li>
+                    <li class=" ">
+                        <a class=" " href="./Cart.html ">Cart</a>
+                    </li>
+                    <li class="">
+                        <a class="" href="./Contact.html">Contact Us</a>
+                    </li>
+                </div>
+                <div class="col-3 border-left ">
+                    <ul>
+                        <li><a href="https://www.facebook.com/ " target=" "><i class="fa fa-facebook-square icon " aria-hidden="true "></i> Facebook</a></li>
+                        <li><a href="https://www.instagram.com/ " target=" "><i class="fa fa-instagram icon " aria-hidden="true "></i> Instagram</a></li>
+                        <li><a href="https://www.linkdin.com/ " target=" "><i class="fa fa-linkedin-square icon " aria-hidden="true "></i> Linkdin</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="../js/Product.js"></script>
+    <script src="../js/addToCart.js"></script>
+</body>
+
+</html>
