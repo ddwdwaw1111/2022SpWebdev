@@ -1,6 +1,7 @@
 const cartIcon = document.getElementById('cart');
 const addButton = document.getElementsByClassName('add');
 const shoppingBag = document.getElementById('ShoppingBag');
+
 class Cart
 {
     constructor(number)

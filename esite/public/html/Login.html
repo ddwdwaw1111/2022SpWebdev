@@ -10,16 +10,18 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/b8c9d120f9.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/base.css">
-    <title>Projects</title>
+    <link rel="icon" href="../logo/ZIHAO.png" type="image/x-icon">
+    <title>Home</title>
 </head>
 
 <body>
+    <!-- Navbar -->
     <header class=" mb-4">
         <nav class="navbar navbar-expand-lg bg-light header-color">
             <div class="container-fluid">
 
                 <!-- Left Logo -->
-                <a class="navbar-brand logo" href="#"><img src="../logo.png" alt="Company Logo" width="64" height="64"> ZIHAO WANG</a>
+                <a class="navbar-brand logo" href="#"><img src="../logo.png" alt="Company Logo" width="64" height="64"> E site</a>
                 <!-- Right Navbar Elements -->
                 <div class="d-flex ">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -43,47 +45,33 @@
             </div>
         </nav>
     </header>
+    <!-- Body Content -->
     <div class="container mb-5">
-        <h2 class="text-center mb-5 font-weight-bold">Contact Me</h2>
 
-        <div class="text-center">
-            <div class="row mb-5 socialMedia">
-                <div class="col-4 ">
-                    <h3><a href="https://www.facebook.com/" target=" "><i class="fa fa-facebook-square light-pink-color" aria-hidden="true"></i><br>FACEBOOK</a></h3>
+        <!-- Self-Intro -->
+        <div class="login-form mb-5">
+            <h2 class="text-center">Login</h2>
+            <form class="col-6 offset-3" id="login-form">
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="email" ">
                 </div>
-                <div class="col-4  light-pink-color">
-                    <h3><a href="https://www.linkedin.com/" target=" "><i class="fa fa-linkedin-square light-pink-color" aria-hidden="true"></i><br>LINKDIN</a></h3>
+                <div class="mb-3 ">
+                    <label for="exampleInputPassword1 " class="form-label ">Password</label>
+                    <input type="password " class="form-control " id="exampleInputPassword1 ">
                 </div>
-                <div class="col-4  light-pink-color">
-                    <h3><a href="https://www.instagram.com/" target=" "><i class="fa fa-instagram light-pink-color" aria-hidden="true"></i></i><br>INSTAGRAM</a></h3>
+                <div class="mb-3 ">
+                    <button type="submit " class="btn btn-primary ">Login</button>
+                    
+                    <a class="dark-color " href="../html/Register.html ">New user? Register now</a>
                 </div>
-            </div>
-
-            <h2 class="font-weight-bold">Email</h2>
-            <h3 class="mb-5">123456@mail.com</h3>
-
-            <h2 class="font-weight-bold">Phone Number</h2>
-            <h3 class="mb-5">123-444-1232</h3>
-
-            <h2 class="font-weight-bold">Address</h2>
-            <div class="row mb-5">
-                <div class="col-6">
-                    <h4>See On Map</h4>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2977.1431375995744!2d-74.08735954885644!3d41.73900537913159!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89dd227ac44b77b5%3A0xdd44509810bdda63!2sState%20University%20of%20New%20York%20at%20New%20Paltz!5e0!3m2!1sen!2sus!4v1648588728988!5m2!1sen!2sus"
-                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-                <div class="col-6">
-                    <h4 class="mb-5">Copy it</h4>
-                    <h3>12345 Main St.</h3>
-                    <h3>Middletown</h3>
-                    <h3>NY</h3>
-                    <h3 class="mb-5">10940</h3>
-                </div>
-            </div>
+                
+            </form>
         </div>
 
     </div>
 
+    <!-- Footer -->
     <footer>
         <div class="container pb-5 pt-5 ">
 
@@ -101,8 +89,8 @@
                     <li class=" ">
                         <a class=" " href="./Cart.html ">Cart</a>
                     </li>
-                    <li class="">
-                        <a class="" href="./Contact.html">Contact Us</a>
+                    <li class=" ">
+                        <a class=" " href="./Contact.html ">Contact Us</a>
                     </li>
                 </div>
                 <div class="col-3 border-left ">
@@ -115,6 +103,8 @@
             </div>
         </div>
     </footer>
+    <script src="../js/User.js "></script>
+    <script src="../js/Login.js "></script>
 </body>
 
 </html>
