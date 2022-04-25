@@ -23,7 +23,6 @@ const cartArray = [];
 const addItem = (e) =>{
     c.setNumber(1);
     console.log(c);
-    cartIcon.innerHTML = c.getNumber();
     cartArray.push(e.target.parentElement);
     shoppingBag.innerText += e.target.parentElement.childNodes[1].innerHTML;
     shoppingBag.innerHTML += '<br>'

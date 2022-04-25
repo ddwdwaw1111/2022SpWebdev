@@ -1,3 +1,4 @@
+import {fetchData} from '../js/main'
 class Product{
     constructor(url,name,price)
     {
@@ -9,6 +10,13 @@ class Product{
 }
 
 const container = document.getElementById('pContainer')
+
+fetchData('/item/', {username: name, password: pswd}, "GET")
+.then((data)=>{
+       const items = data
+       console.log(items);
+})
+    
 const array = [
     new Product(
         "https://cdn.shopify.com/s/files/1/0070/7582/3668/products/natural_chinese_shanshan_seal_stone_for_oriental_brush_painting_artwork_3_400x.jpg?v=1598872349",

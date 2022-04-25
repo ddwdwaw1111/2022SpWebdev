@@ -1,17 +1,26 @@
 const nav = document.getElementById('navList');
 if(getCurrentUser()) {
     nav.innerHTML = `
+            <li class="nav-item">
+                  <button class="nav-link " id="logout">Logout</button>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="/Profile.html">Profile</a>
+            </li>
               <li class="nav-item">
-                  <a class="nav-link " aria-current="page" href="./Product.html">Home</a>
+                  <a class="nav-link " aria-current="page" >Welcome,${getCurrentUser().userName}</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link " href="./Cart.html">Cart</a>
+                  <a class="nav-link " aria-current="page" href="/Product.html">Home</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link " href="./Contact.html">Contact Us</a>
+                  <a class="nav-link " href="/Cart.html">Cart</a>
               </li>
               <li class="nav-item">
-                  <a href=""><i class="fa fa-shopping-bag nav-link" aria-hidden="true"></i> <span id="cart" ></span></a>
+                  <a class="nav-link " href="/Contact.html">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                  <a href="" class="nav-link"><i class="fa fa-shopping-bag" aria-hidden="true"></i> <span id="cart" ></span></a>
               </li>
   `;
 } else {
@@ -20,16 +29,16 @@ if(getCurrentUser()) {
                   <a class="nav-link " aria-current="page" href="./Product.html">Home</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link " href="./Login.html">Login</a>
+                  <a class="nav-link " href="/Login.html">Login</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link " aria-current="page" href="./Register.html">New User</a>
+                  <a class="nav-link " aria-current="page" href="/Register.html">New User</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link " href="./Cart.html">Cart</a>
+                  <a class="nav-link " href="/Cart.html">Cart</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link " href="./Contact.html">Contact Us</a>
+                  <a class="nav-link " href="/Contact.html">Contact Us</a>
               </li>
               <li class="nav-item">
                   <a class="nav-link" href=""><i class="fa fa-shopping-bag " aria-hidden="true"></i> <span id="cart" ></span></a>

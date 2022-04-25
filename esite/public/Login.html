@@ -24,23 +24,8 @@
                 <a class="navbar-brand logo" href="#"><img src="../logo.png" alt="Company Logo" width="64" height="64"> E site</a>
                 <!-- Right Navbar Elements -->
                 <div class="d-flex ">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link " aria-current="page" href="./Product.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link " href="./Login.html">Login</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link " aria-current="page" href="./Register.html">New User</a>
-                        </li>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="navList">
 
-                        <li class="nav-item">
-                            <a class="nav-link " href="./Cart.html">Cart</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link " href="./Contact.html">Contact Us</a>
-                        </li>
                 </div>
             </div>
         </nav>
@@ -49,37 +34,24 @@
     <div class="container mb-5">
 
         <!-- Self-Intro -->
-        <div class=" mb-5">
-            <h2 class="text-center">Register</h2>
-            <form class="col-6 offset-3 " id="register-form">
-                <div class="row">
-                    <div class="col-6">
-                        <label for="FirstName" class="form-label">First Name</label>
-                        <input type="FirstName" class="form-control" id="FirstName">
-                    </div>
-                    <div class="col-6 ">
-                        <label for="LastName " class="form-label ">Last Name</label>
-                        <input type="LastName " class="form-control " id="LastName">
-                    </div>
-                </div>
-                <div class="mb-3 ">
-                    <label for="email " class="form-label ">Email address</label>
-                    <input type="email " class="form-control " id="email">
-                </div>
-                <div class="mb-3 ">
-                    <label for="password " class="form-label ">Password</label>
-                    <input type="password " class="form-control " id="password">
-                </div>
-                <div class="mb-3 ">
-                    <label for="conformPassword " class="form-label ">Conform Password</label>
-                    <input type="conformPassword " class="form-control " id="cPassword">
-                </div>
-                <div class="mb-3 ">
-                    <button type="submit " class="btn btn-primary " id="rButton">Register </button>
+        <div class="login-form mb-5">
+            <h2 class="text-center">Login</h2>
+            <form class="col-6 offset-3" id="login-form">
+                <p class="error"></p>
 
-                    <a class="dark-color " href="../html/Login.html "> Already have one? Login</a>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="email">
                 </div>
-
+                <div class="mb-3 ">
+                    <label for="exampleInputPassword1 " class="form-label ">Password</label>
+                    <input id="password" type="password " class="form-control " id="exampleInputPassword1 ">
+                </div>
+                <div class="mb-3 ">
+                    <button type="submit" class="btn btn-primary " value="Login">Login</button>
+                    <a class="dark-color " href="/Register.html ">New user? Register now</a>
+                </div>
+                
             </form>
         </div>
 
@@ -103,8 +75,8 @@
                     <li class=" ">
                         <a class=" " href="./Cart.html ">Cart</a>
                     </li>
-                    <li class="">
-                        <a class="" href="./Contact.html">Contact Us</a>
+                    <li class=" ">
+                        <a class=" " href="./Contact.html ">Contact Us</a>
                     </li>
                 </div>
                 <div class="col-3 border-left ">
@@ -117,10 +89,8 @@
             </div>
         </div>
     </footer>
-    <script src="../js/User.js "></script>
-    <script src="../js/Register.js"></script>
-    <script>
-    </script>
+    <script type="module" src="/js/main.js"></script>
+    <script type="module" src="/js/User.js "></script>
 </body>
 
 </html>
