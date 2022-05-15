@@ -1,5 +1,27 @@
 # E-commerce website 
 
+## Description
+   This is a Simple Web application that selling products. I allows user to do the folloing things:
+   
+   1. Users are able to register and login. User information will be stored in to a mysql table.
+   2. Users are able to change their username and password.
+   3. Users are able to add an item to cart. The items in cart will be saved. Items are still there after user logout and login again.
+   4. Users are able to sort product based on it's category, server will only return the products in that category.
+   
+   This website is not done yet. 
+   I want add "check order" which can let users see their placed order in the future. Also, I want to add a review function to let user leave reviews under each items.
+
+## Bugs 
+
+## Technologies
+
+## ERD
+
+## HOW TO USE IT
+
+## WHAT DOES IT LOOK LIKE
+
+
 Login page
 ![loginhome](https://user-images.githubusercontent.com/55290301/168497319-41a6d1dd-1981-4814-817c-7197d3040f07.png)
 ---
@@ -27,26 +49,4 @@ Check out
 Sort by category
 ![sort](https://user-images.githubusercontent.com/55290301/168497628-a9043337-6fb8-441d-a414-f7619304ff02.png)
 ---
-
-## Description
-   This is a Simple Web application that selling products. I allows user to do the folloing things:
-   
-   1. Users are able to register and login. User information will be stored in to a mysql table.
-   2. Users are able to change their username and password.
-   3. Users are able to add an item to cart. The items in cart will be saved. Items are still there after user logout and login again.
-   4. Users are able to sort product based on it's category, server will only return the products in that category.
-   
-   This website is not done yet. 
-   I want add "check order" which can let users see their placed order in the future. Also, I want to add a review function to let user leave reviews under each items.
-
-## Bugs 
-
-## Technologies
-
-## ERD
-
-## HOW TO USE IT
-
-##
-
 
