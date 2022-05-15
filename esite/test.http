@@ -1,3 +1,15 @@
-# GET http://localhost:3000/items
+# POST http://localhost:3000/items
 
-POST http://localhost:3000/items/addItem
+
+#POST http://localhost:3000/localhost:3000/users/register
+
+POST http://localhost:3000/carts/set
+content-type: application/json
+
+{
+    "cart_id":"1",
+    "items":[
+    ],
+    "price":"30",
+    "user_id":"1"
+}
