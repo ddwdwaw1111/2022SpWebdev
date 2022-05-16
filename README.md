@@ -13,11 +13,38 @@
 
 ## Bugs 
 
+   I didn't find any bugs currently.
+  
 ## Technologies
-
+    Bootstrap, Node.js, Javascript, HTML, CSS, Postman, Mysql, nodemon.
 ## ERD
-
+![Assignment 4](https://user-images.githubusercontent.com/55290301/168504601-877d0ec9-5358-4313-bc9f-ef95d1dd62c8.png)
+ * Customer is used to create user table, used by login, register, edit and delete account fnctions.
+ * Product is used to create products table, used by showAll, showByCategory functions.
+ * Cart is used to create items table, used by add to cart, check out functions.
+ * Order and review should be used to create Review table and order table.
 ## HOW TO USE IT
+---
+   1. Open esite file, open terminal inside server folder.
+   2. Type npm intall to download all the dependencies.
+   3. Type nodemon index.js to run the server.
+   4. Open .env file and set the following four variables.
+      * MYSQL_USERNAME = Your mysql username
+      * MYSQL_PSWD = Your password
+      * MYSQL_HOST = localhost
+      * MYSQL_DB = your db name
+   5. set up three tables. One named "items", one named "carts" and one named "users".
+   
+Items setting
+![item setting](https://user-images.githubusercontent.com/55290301/168502552-59177749-a4c6-4cb3-a23d-059957a69a21.png)
+
+Carts setting
+![cart](https://user-images.githubusercontent.com/55290301/168502598-a3da9920-3a85-4e4a-a299-e37fb5165576.png)
+
+User setting
+![user](https://user-images.githubusercontent.com/55290301/168502602-284570dc-7987-41d0-b7fd-f6d472feacd2.png)
+
+
 
 ## WHAT DOES IT LOOK LIKE
 
